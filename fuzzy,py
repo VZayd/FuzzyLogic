@@ -1,0 +1,8 @@
+from fuzzywuzzy import fuzz
+
+string1 = "apple"
+string2 = "banana"
+
+similarity = fuzz.ratio(string1, string2)
+
+print(similarity)
